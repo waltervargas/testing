@@ -1,6 +1,6 @@
 function addTwoNum(a: number, b: number): number { 
     if (checkA(a) && checkB(b))  {
-        return a + b;
+        return a + b + 1;
     }
     return 0;
 }
