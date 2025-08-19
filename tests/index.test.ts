@@ -27,6 +27,8 @@ try {
   testHelloWorld();
   testWhenCallAddTwoWith4Get8();
   console.log('🎉 All tests passed!');
+  process.exit(0); // Explicitly exit with success code
 } catch (error) {
   console.error('❌ Test failed:', (error as Error).message);
+  process.exit(1); // Exit with error code when tests fail
 }
