@@ -30,4 +30,4 @@ jobs:
       run: npm run build
       
     - name: Run tests
-      run: npx ts-node ./tests/index.test.ts
+      run: npm run test
